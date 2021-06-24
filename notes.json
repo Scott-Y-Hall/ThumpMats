@@ -1,0 +1,27 @@
+"Yetter":
+{
+    "knots": 4,
+    "angle": 90,
+    "show": 17,
+    "single": 0,
+    "largeCircle": 327,
+    "smallCircle": 22,
+    "showCircle": 0,
+    "startcp": -470,
+    "midcp": -190
+}
+
+
+
+"Peeso":
+{
+    "knots": 4,
+    "angle": 90,
+    "show": 9,
+    "single": 0,
+    "largeCircle": -230,
+    "smallCircle": -218,
+    "showCircle": 0,
+    "startcp": -130,
+    "midcp": -830
+}

@@ -1,0 +1,103 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E6E6FA;
+	#font-family: Univers, Arial, sans-serif;
+}
+
+
+canvas, #mat {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+input[type="number"] {
+	width: 60px;
+	display: inline-block;
+}
+
+.polygon line {
+	fill: none;
+	stroke: #000;
+}
+
+.polygon circle {
+	fill: #000;
+	stroke: #fff;
+	cursor: move;
+}
+
+.segment {
+	stroke-width: 2px;
+}
+
+.checkbox {
+	float: right;
+	margin-top: 8px;
+	margin-right: 4px;
+}
+
+.controls {
+	position: absolute;
+	width: 940px;
+	padding: 10px;
+	z-index: 1;
+}
+
+.slider_value, #title {
+	font-size: xxx-large;
+}
+
+.button rect {
+	stroke: #999faa; /* navy 40% */
+	stroke-width: 2px;
+}
+
+.button rect.pressed {
+	fill: #000f2b; /* navy 100% */
+}
+
+.button #gradient-start {
+	stop-color: #999faa; /* navy 40% */
+	stop-opacity: 1;
+}
+
+.button #gradient-stop {
+	stop-color: #4d576b; /* navy 70% */
+	stop-opacity: 1;
+}
+
+.button #gradient-start.active, .button #gradient-start.pressed {
+	stop-color: #4d576b; /* navy 70% */
+}
+
+.button #gradient-stop.active, .button #gradient-stop.pressed {
+	stop-color: #000f2b; /* navy 100% */
+}
+
+.button text {
+	font-size: 30px;
+	fill: #eee;
+	pointer-events: none;
+	text-anchor: start;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+g#sliders line {
+	stroke: black;
+}
+
+g#sliders rect {
+	stroke: black;
+	fill: black;
+}
+
+g#sliders rect.on {
+	stroke: black;
+	fill: #333333;
+}
